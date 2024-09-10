@@ -14,6 +14,6 @@ vip_vr_colored = colored(vip_vr, 'green')
 vip_vr_tijd_colored = colored(vip_vr_tijd, 'grey')
 resultaat_colored = colored(resultaat, 'yellow')
 resultaat2_colored = colored(resultaat2, 'light_cyan')
-prijs_colored = colored(prijs, 'white')
+prijs_colored = colored(prijs, 'light_magenta')
 
 print(f"Dit geweldige dagje-uit met {personen_colored} mensen in de Speelhal met {vip_vr_tijd_colored} minuten VR kost je maar {prijs_colored} euro")
