@@ -6,3 +6,5 @@ if a > b:
     print(f"A is het grootste getal: {Max}")
 elif b > a:
     print(f"a is het kleinste getal: {Min}")
+else:
+    print("a en b zijn even groot")
