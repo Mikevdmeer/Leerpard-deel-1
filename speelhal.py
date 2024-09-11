@@ -1,9 +1,9 @@
 from termcolor import colored, cprint, COLORS
 
-personen = 4
-toegangsticket = 7.45
-vip_vr = 0.37
-vip_vr_tijd = 45
+personen = int(input("Hoeveel personen?: "))
+toegangsticket = float(input("Hoeveel kost het toegangsticket (in euro's)?: "))
+vip_vr = float(input("Hoeveel kost het VIP VR per minuut (in euro's)?: "))
+vip_vr_tijd = int(input("Hoeveel VIP VR tijd (in minuten)?: "))
 resultaat = (toegangsticket * personen)
 resultaat2 = (vip_vr * vip_vr_tijd)
 prijs = resultaat + resultaat2
