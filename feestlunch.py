@@ -5,7 +5,7 @@ stokbroden = 2
 prijs_stokbroden = 2.78
 kortingsbonnen = 3
 korting = kortingsbonnen * 0.50
-feestlunch = (croissantjes * prijs_croissant + stokbroden * prijs_stokbroden - korting )
+feestlunch = ((croissantjes * prijs_croissant) + (stokbroden * prijs_stokbroden) - korting )
 
 croissantjes_colored = colored(croissantjes, 'blue')
 prijs_croissant_colored = colored(prijs_croissant, 'red')
